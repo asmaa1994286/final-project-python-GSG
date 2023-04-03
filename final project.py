@@ -56,13 +56,6 @@ while True:
 
     print_StudentCourseMenu()
     option = input("Please make a choice:")
-
-
-
-
-
-
-
     if option == "1":
         student_name = input("Enter student name:")
         student_level = input("Enter student level(A/B/C):")
@@ -104,8 +97,6 @@ while True:
                       print("student saved successfully")
                       break
 
-
-
                 print("Student details updated successfully")
 
 
@@ -113,11 +104,6 @@ while True:
         print("List of all students:")
         for i in student:
             i.display_all()
-
-
-
-
-
 
 
     elif option == "5":
@@ -154,21 +140,7 @@ while True:
                         print(f"Course {a.name} added to student {i.name}")
 
                     else:
-                        print("Invalid course ID or course level does not match student level")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                        print("Invalid course ID or course level does not match student le
 
 
 
